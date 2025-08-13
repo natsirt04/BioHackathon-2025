@@ -7,3 +7,6 @@ matplotlib
 xgboost
 imbalanced-learn
 openpyxl
+streamlit
+fastapi
+uvicorn
