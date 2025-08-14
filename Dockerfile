@@ -6,7 +6,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ ./backend/
 COPY frontend/ ./frontend/
 
-COPY test.pkl ./
+COPY xgboost_model_v1.pkl ./
 
 EXPOSE 8000
 EXPOSE 8501
